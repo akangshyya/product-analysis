@@ -1,68 +1,64 @@
-#  Product Sales Analysis Dashboard
+# 📊 Product Sales Analysis – Power BI
 
-An end-to-end **Product Sales** analytics project using **Power BI**, **SQL**, and **Python (Pandas/NumPy)**.  
-It analyzes sales performance, customer behavior, and category trends and turns them into clear, actionable insights.
+This project presents an **interactive Product Sales Analysis Dashboard** built using **Power BI**, designed to analyze sales performance, customer contributions, category trends, and profitability across regions and payment modes.
 
-> **Preview**  
-> ![Dashboard](dashboard.jpeg)
-> <!-- Replace the path above with your actual screenshot path if different -->
+![dashboard](https://github.com/user-attachments/assets/ea8db255-5701-4492-8275-a1f4243588ee)
 
 ---
 
-##  What’s Inside
+## 🔍 Dashboard Overview
+The dashboard provides actionable insights into:
 
-- **Interactive Power BI dashboard** with quarter & category filters
-- **Cleaned and modeled data** using SQL & Python
-- **KPIs & Trends** for fast decision-making
-  - **AOV:** 121K **Sales Amount:** 438K **Quantity:** 5615 **Profit:** 37K
-- **Breakdowns**
-  - Profit by **Month** (spot loss months like Jun–Jul)
-  - Profit by **State** (e.g., Maharashtra, MP, UP)
-  - **Customer** spend (top customers like Harivansh, Madhav)
-  - Quantity by **Category** (Clothing, Furniture, Electronics)
-  - Quantity by **Payment Mode** (UPI, COD, EMI, Cards)
-  - Profit by **Sub-Category** (Printers, Bookcases, etc.)
+- **Average Order Value (AOV):** 121K  
+- **Total Sales Amount:** 438K  
+- **Total Quantity Sold:** 5,615  
+- **Total Profit:** 37K  
+- **Top Customers:** Harivansh, Madhav, Madan Mohan  
+- **Top States by Profit:** Maharashtra, Madhya Pradesh, Uttar Pradesh  
 
 ---
 
-##  Tech Stack
-
-- **Power BI** – visuals, DAX, interactions
-- **SQL** – joins, aggregations, filters, views
-- **Python** – data cleaning & preprocessing (`pandas`, `numpy`)
-
----
-
-
----
-
+## 📊 Key Visualizations
+- Profit by Month (monthly profit/loss trends)  
+- Profit by Sub-Category (Printers, Bookcases, Sarees, Accessories, Tables)  
+- Customer-wise Contribution (top spenders)  
+- Sales Quantity by Category (Clothing, Furniture, Electronics)  
+- Sales Quantity by Payment Mode (UPI, COD, Credit Card, EMI, Debit)  
+- KPI Cards (AOV, Sales, Quantity, Profit)  
+- Interactive Filters: Quarter, Category, Payment Mode  
 
 ---
 
-##  Key Insights
-
-- **Printers & Bookcases** are the most profitable sub-categories.  
-- **Clothing** has the highest sales volume but lower margins.  
-- **UPI & COD** dominate payment methods.  
-- **Maharashtra & Madhya Pradesh** lead in profit contribution.  
-- **June–July** months report losses → strategy adjustments needed.  
+## 📁 Files Included
+- `Product_Sales.csv`: Cleaned dataset used for visualization  
+- `Product_Analysis.pbix`: Power BI report file (upload manually to GitHub)  
+- Dashboard Screenshot (see above)  
 
 ---
 
-##  Roadmap
-
-- Add sales **forecasting** and trend analysis  
-- Integrate **customer segmentation (RFM analysis)**  
-- Automate refresh with **Power BI Service + SQL pipeline**  
+## 💡 Business Use Case
+The purpose of this dashboard is to help businesses **monitor sales trends, identify profit-driving products, and optimize inventory & marketing strategies**. It provides insights for decision-making on pricing, promotions, and customer targeting.  
 
 ---
 
-##  License
-
-This project is released under the **MIT License**.
+## 🛠️ Tools Used
+- **Power BI Desktop** for data modeling and dashboard design  
+- **DAX** for calculated fields and KPIs  
+- **CSV Data Source** for flexible data integration  
 
 ---
 
-##  Acknowledgments
+## 🚀 How to Use
+1. Download the `.pbix` file from this repo.  
+2. Open with [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
+3. Explore filters and slicers for custom insights.  
 
-Built with love using **Power BI, SQL, and Python** to turn raw sales data into business insights.
+---
+
+## 📌 Author
+**Akangkshya Dutta**  
+[LinkedIn](www.linkedin.com/in/akangshya-dutta-7926a524b) | [Email](mailto:akangkshyya@gmail.com)  
+
+---
+
+⭐ *Star this repo if you found it helpful!*  
