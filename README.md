@@ -4,7 +4,7 @@ An end-to-end **Product Sales** analytics project using **Power BI**, **SQL**, a
 It analyzes sales performance, customer behavior, and category trends and turns them into clear, actionable insights.
 
 > **Preview**  
-> ![Dashboard]("C:\Users\akang\Downloads\dashboard.jpeg")
+> ![Dashboard](dashboard.jpeg)
 > <!-- Replace the path above with your actual screenshot path if different -->
 
 ---
