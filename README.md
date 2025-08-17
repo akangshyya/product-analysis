@@ -30,21 +30,34 @@ The dashboard provides actionable insights into:
 ---
 
 ## 📁 Files Included
-- `Product_Sales.csv`: Cleaned dataset used for visualization  
-- `Product_Analysis.pbix`: Power BI report file (upload manually to GitHub)  
-- `https://github.com/user-attachments/assets/ea8db255-5701-4492-8275-a1f4243588ee` : Dashboard Screenshot (see above)  
+- `Details.csv` — Product / item details dataset  
+- `Orders.csv` — Orders / transactions dataset  
+- `Product_sales.pbix` — Power BI report (open in Power BI Desktop)  
+- `Product_sales.py` — Python script for preprocessing & EDA (requires pandas/numpy)  
+- `Product_sales.sql` — SQL queries for KPIs & transformations  
+- `README.md` — This document
 
 ---
 
+## 🚀 How to Use
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/akangshyya/product-analysis.git
+   cd product-analysis
+---
+
 ## 💡 Business Use Case
-The purpose of this dashboard is to help businesses **monitor sales trends, identify profit-driving products, and optimize inventory & marketing strategies**. It provides insights for decision-making on pricing, promotions, and customer targeting.  
+This dashboard helps product & sales teams identify best-selling categories, spot loss-making months, and prioritise high-value customers and regions to guide inventory, pricing, and marketing decisions.
 
 ---
 
 ## 🛠️ Tools Used
 - **Power BI Desktop** for data modeling and dashboard design  
 - **DAX** for calculated fields and KPIs  
-- **CSV Data Source** for flexible data integration  
+- **CSV Data Source** for flexible data integration
+- **Python(Numpy, Pandas)** preprocessing & EDA
+- **SQL** aggregations & KPI queries
 
 ---
 
