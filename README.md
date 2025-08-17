@@ -32,7 +32,7 @@ The dashboard provides actionable insights into:
 ## 📁 Files Included
 - `Product_Sales.csv`: Cleaned dataset used for visualization  
 - `Product_Analysis.pbix`: Power BI report file (upload manually to GitHub)  
-- Dashboard Screenshot (see above)  
+- `https://github.com/user-attachments/assets/ea8db255-5701-4492-8275-a1f4243588ee` : Dashboard Screenshot (see above)  
 
 ---
 
